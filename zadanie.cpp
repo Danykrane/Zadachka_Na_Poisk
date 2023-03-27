@@ -20,6 +20,8 @@ int find(vector<int> vec, int znachenie) {
       lef = seredina + 1;  // если меньше, то увеличиваем левую границу
   }
 
+
+
   if (f == true) {
     return seredina;
   } else
@@ -44,6 +46,6 @@ int main() {
   cout <<"\nВведите значение для поиска"<<endl;
   cin >> zn;
   if (find(n,zn)==-1) cout <<"Такого эл-та нет"<<endl;
-  else cout <<"Индекс элемента  "<<zn<<"равняется "<< find(n,zn);
+  else cout <<"Индекс элемента  "<<zn<<" равняется "<< find(n,zn);
 
 }
