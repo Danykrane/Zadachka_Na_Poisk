@@ -1,6 +1,8 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
+
+
 using namespace std;
 
 int find(vector<int> vec, int znachenie) {
@@ -36,7 +38,7 @@ int main() {
   for (auto& it :n){
     cin >> it;
   }
-  cout << "Отсортированный массив равен "<<endl;
+  cout << "Отсортированный массив равен\n=> "<<endl;
   
   sort(n.begin(), n.end());
  for (auto& it :n){
